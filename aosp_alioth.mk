@@ -16,7 +16,7 @@ $(call inherit-product, vendor/aosp/config/arcana_props.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-TARGET_BOOT_ANIMATION_RES := 108o
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
@@ -37,6 +37,6 @@ TARGET_SUPPORTS_NOW_PLAYING ?= true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys"
+     PRIVATE_BUILD_DESC="alioth_global-user 11 RKQ1.200826.002 V12.5.6.0.RKHMIXM release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
+BUILD_FINGERPRINT := Redmi/alioth_global/alioth:11/RKQ1.200826.002/V12.5.6.0.RKHMIXM:user/release-keys
